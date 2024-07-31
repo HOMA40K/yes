@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Maker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Music Maker</h1>
+    </header>
+    <main>
+        <section id="instrument-library">
+            <h2>Instruments</h2>
+            <div class="category" id="basses">
+                <h3>Basses</h3>
+                <div class="instrument" draggable="true" data-type="bass" ondragstart="drag(event)">Bass 1</div>
+                <div class="instrument" draggable="true" data-type="bass" ondragstart="drag(event)">Bass 2</div>
+            </div>
+            <div class="category" id="guitars">
+                <h3>Guitars</h3>
+                <div class="instrument" draggable="true" data-type="guitar" ondragstart="drag(event)">Guitar 1</div>
+                <div class="instrument" draggable="true" data-type="guitar" ondragstart="drag(event)">Guitar 2</div>
+            </div>
+            <div class="category" id="drums">
+                <h3>Drums</h3>
+                <div class="instrument" draggable="true" data-type="drum" ondragstart="drag(event)">Drum 1</div>
+                <div class="instrument" draggable="true" data-type="drum" ondragstart="drag(event)">Drum 2</div>
+            </div>
+        </section>
+        <section id="tracks">
+            <h2>Tracks</h2>
+            <button id="add-track">Add Track</button>
+            <div id="track-container"></div>
+        </section>
+        <section id="controls">
+            <button id="download">Download Song</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

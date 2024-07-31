@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    margin: 0 0 10px;
+}
+
+#instrument-library {
+    margin-bottom: 20px;
+}
+
+.category {
+    margin-bottom: 10px;
+}
+
+.instrument {
+    background-color: #e9e9e9;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 5px;
+    cursor: grab;
+}
+
+#tracks {
+    margin-bottom: 20px;
+}
+
+#add-track {
+    margin-bottom: 10px;
+}
+
+.track {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.track-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.track-body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-height: 50px;
+}
+
+.placeholder {
+    color: #999;
+    font-style: italic;
+}
+
+.instrument-item {
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #000;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
